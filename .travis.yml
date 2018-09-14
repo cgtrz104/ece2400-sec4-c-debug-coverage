@@ -56,5 +56,5 @@ script:
 # need to rerun gcov.
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -X gcov -t 9fd025fe-b6d4-4e58-baad-4b7a28fcaa85
 
